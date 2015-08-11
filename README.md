@@ -30,7 +30,7 @@ Libre uso educacional
 
 ## Funciones
 Incluye 7 funciones:
-> getInt()
+> getInt() <
 > getByte()
 > getDecimal()
 > getDouble()
