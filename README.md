@@ -30,13 +30,13 @@ Libre uso educacional
 
 ## Funciones
 Incluye 7 funciones:
-> getInt() <
-> getByte()
-> getDecimal()
-> getDouble()
-> getFloat()
-> getLong()
-> getShort()
+- getInt()
+- getByte()
+- getDecimal()
+- getDouble()
+- getFloat()
+- getLong()
+- getShort()
 
 ## Contacto
 #### Developer
