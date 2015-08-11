@@ -1,6 +1,11 @@
 DiegoLib
 ======
-**DiegoLib** is a folder containing my code in c# for UAQ students. DiegoLib.dll is it's main file, being a library for easing the process of learning C#.
+**DiegoLib** es un folder que contiene mi código en C# para estudiantes UAQ.
+DiegoLib.dll es el archivo principal, una librería para el rápido desarrollo de software con C#.
+Ahorra lineas de código
+Evita los errores de introducción de letras
+Evita errores de tamaño mayor al posible
+Evita que termine tu programa inespreadamente
 
 ## Download
 * [Version 1.0](https://github.com/Anayamd/DiegoLib/archive/master.zip)
@@ -12,19 +17,26 @@ DiegoLib
 ## Contributors
 Diego Said Anaya Mancilla
 
-### Contributors on GitHub
-* [Contributors](https://github.com/anayamd/sw-name/graphs/contributors)
-
 ## License 
-Free educational use
+Libre uso educacional
 
 ## Version 
 * Version 1.0
 
-## How-to use this code
+## Instrucciones
 * see [INSTRUCTIONS](https://github.com/Anayamd/DiegoLib/blob/master/INSTRUCTIONS.md) file
 
-## Contact
+## Funciones
+Incluye 7 funciones:
+> getInt()
+> getByte()
+> getDecimal()
+> getDouble()
+> getFloat()
+> getLong()
+> getShort()
+
+## Contacto
 #### Developer
-* Homepage: libreuaq.tk
+* Website: libreuaq.tk
 * e-mail: anayamd@hotmail.com
