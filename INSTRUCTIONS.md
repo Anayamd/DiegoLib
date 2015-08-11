@@ -1,4 +1,4 @@
-Instructions for DiegoLib
+Instrucciones para DiegoLib
 ======
 1) Copiar el archivo en la misma carpeta que el archivo con el que lo queremos usar.
 

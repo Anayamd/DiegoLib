@@ -2,6 +2,8 @@ DiegoLib
 ======
 **DiegoLib** es un folder que contiene mi código en C# para estudiantes UAQ.
 DiegoLib.dll es el archivo principal, una librería para el rápido desarrollo de software con C#.
+
+Ventajas:
 Ahorra lineas de código
 Evita los errores de introducción de letras
 Evita errores de tamaño mayor al posible
