@@ -3,163 +3,175 @@
 	Instrucciones:
 	Copiar el archivo DiegoLib.dll en la misma carpeta que el .cs al que importaremos
 	$ mcs -t:library DiegoLib.cs	//Comando para compilar
-	En el .cs importar con el comando: using static Diego.Basics;
+	En el .cs importar con el comando: using static DiegoLib.Basics;
 
-	Basics (7 funciones):
-		> getInt()
-		> getByte()
-		> getDecimal()
-		> getDouble()
-		> getFloat()
-		> getLong()
-		> getShort()
+	Basics (8 funciones):
+		> getInt( [""] )
+		> getByte( [""] )
+		> getDecimal( [""] )
+		> getDouble( [""] )
+		> getFloat( [""] )
+		> getLong( [""] )
+		> getShort( [""] )
+		> printd( texto [, repeticion] [, separador] )
 */
 
-namespace Diego
+namespace DiegoLib
 {
 	public class Basics
 	{
 		//------------------------------------------------------//
-		public static int getInt( int num = 0 )
+		public static int getInt( string text = "default" )
 		{
 			try
 			{
-				if (num == 1) {					
+				if (text == "default") {					
 					System.Console.Write("Ingresa un número (int): ");
-				}			
+				}		
+				else {
+					System.Console.Write(text);
+				}
 				int x = int.Parse(System.Console.ReadLine());
 				return x;
 			}
 			catch
 			{
-				if (num != 1) {					
-					System.Console.Write("No permitido, intenta de nuevo: ");
-				}
-				return getInt(num);
+				return getInt(text);
 			}
 		}
 		
 		//------------------------------------------------------//
-		public static byte getByte( int num = 0 )
+		public static byte getByte( string text = "default" )
 		{
 			try
 			{
-				if (num == 1) {		
+				if (text == "default") {		
 					System.Console.Write("Ingresa un número (byte): ");
+				}
+				
+				else {
+					System.Console.Write(text);
 				}
 				byte x = byte.Parse(System.Console.ReadLine());
 				return x;
 			}
 			catch
 			{
-				if (num != 1) {					
-					System.Console.Write("No permitido, intenta de nuevo: ");
-				}
-				return getByte(num);
+				return getByte(text);
 			}
 		}
 		
 		//------------------------------------------------------//
-		public static decimal getDecimal( int num = 0 )
+		public static decimal getDecimal( string text = "default" )
 		{
 			try
 			{
-				if (num == 1) {		
+				if (text == "default") {		
 					System.Console.Write("Ingresa un número (decimal): ");
-				}		
+				}	
+				else {
+					System.Console.Write(text);
+				}
 				decimal x = decimal.Parse(System.Console.ReadLine());
 				return x;
 			}
 			catch
 			{
-				if (num != 1) {					
-					System.Console.Write("No permitido, intenta de nuevo: ");
-				}
-				return getDecimal(num);
+				return getDecimal(text);
 			}
 		}
 		
 		//------------------------------------------------------//
-		public static double getDouble( int num = 0 )
+		public static double getDouble( string text = "default" )
 		{
 			try
 			{
-				if (num == 1) {		
+				if (text == "default") {		
 					System.Console.Write("Ingresa un número (double): ");
-				}		
+				}	
+				else {
+					System.Console.Write(text);
+				}
 				double x = double.Parse(System.Console.ReadLine());
 				return x;
 			}
 			catch
 			{
-				if (num != 1) {					
-					System.Console.Write("No permitido, intenta de nuevo: ");
-				}
-				return getDouble(num);
+				return getDouble(text);
 			}
 		}
 		
 		//------------------------------------------------------//
-		public static float getFloat( int num = 0 )
+		public static float getFloat( string text = "default" )
 		{
 			try
 			{
-				if (num == 1) {		
+				if (text == "default") {		
 					System.Console.Write("Ingresa un número (float): ");
-				}		
+				}	
+				else {
+					System.Console.Write(text);
+				}
 				float x = float.Parse(System.Console.ReadLine());
 				return x;
 			}
 			catch
 			{
-				if (num != 1) {					
-					System.Console.Write("No permitido, intenta de nuevo: ");
-				}
-				return getFloat(num);
+				return getFloat(text);
 			}
 		}
 		
 		//------------------------------------------------------//
-		public static long getLong( int num = 0 )
+		public static long getLong( string text = "default" )
 		{
 			try
 			{
-				if (num == 1) {		
+				if (text == "default") {		
 					System.Console.Write("Ingresa un número (long): ");
-				}		
+				}	
+				else {
+					System.Console.Write(text);
+				}
 				long x = long.Parse(System.Console.ReadLine());
 				return x;
 			}
 			catch
 			{
-				if (num != 1) {					
-					System.Console.Write("No permitido, intenta de nuevo: ");
-				}
-				return getLong(num);
+				return getLong(text);
 			}
 		}
 		
 		//------------------------------------------------------//
-		public static short getShort( int num = 0 )
+		public static short getShort( string text = "default" )
 		{
 			try
 			{
-				if (num == 1) {		
+				if (text == "default") {		
 					System.Console.Write("Ingresa un número (short): ");
-				}		
+				}
+				else {
+					System.Console.Write(text);
+				}
 				short x = short.Parse(System.Console.ReadLine());
 				return x;
 			}
 			catch
 			{
-				if (num != 1) {					
-					System.Console.Write("No permitido, intenta de nuevo: ");
-				}
-				return getShort(num);
+				return getShort(text);
 			}
 		}
 		
-	}
+		//------------------------------------------------------//
+		public static void printd( string s, int num = 1 )
+		{
+			for (int i = 0; i < num; i++)
+			{
+					System.Console.Write(s);
+			}
+		}
+		
+	}	// Final de Basics
+	
 }
 
 
@@ -168,14 +180,15 @@ namespace Diego
 
 --- Versión 1.0  -------------------------------------------------------
 	
-	Incluye 7 funciones
-	> getInt()
-	> getByte()
-	> getDecimal()
-	> getDouble()
-	> getFloat()
-	> getLong()
-	> getShort()
+	Incluye 8 funciones
+	> getInt( [""] )
+	> getByte( [""] )
+	> getDecimal( [""] )
+	> getDouble( [""] )
+	> getFloat( [""] )
+	> getLong( [""] )
+	> getShort( [""] )
+	> printd(texto [, repeticiones] [, separador] )
 	
 	Ahorran lineas de código
 	Evitan los errores de introducción de letras
@@ -185,13 +198,13 @@ namespace Diego
 	Instrucciones de uso:
 	1) Copiar el archivo en la misma carpeta que el archivo con el que lo queremos usar.
 	2) Importar al archivo (exemplo.cs) en el que estamos trabajando, usando la linea de código siguiente:
-	      using static Diego.Basics;
+	      using static DiegoLib.Basics;
 	3) Listo! Disfruta de las funciones. Ejemplo:
 	      int x = getInt();
 	
 	Función extra:
-	Mandando el número 1 como parámetro podemos indicar que se imprima la linea default para pedir el número, ejemplo:
-	x int = getInt()	//No imprime nada, solo espera un input
-	x int = getInt(1)	//Imprime la linea "Ingresa un número (int): " y espera un input
+	Mandando texto como parámetro podemos indicar que no se imprima la linea default para pedir el número, ejemplo:
+	x int = getInt("Dame un número: ")	//Imprime la linea dame un número y espera input
+	x int = getInt()	//Imprime la linea "Ingresa un número (int): " y espera un input
 	
 */

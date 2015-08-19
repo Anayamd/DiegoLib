@@ -3,7 +3,7 @@ Instrucciones para DiegoLib
 1) Copiar el archivo en la misma carpeta que el archivo con el que lo queremos usar.
 
 2) Importar al archivo (exemplo.cs) en el que estamos trabajando, usando la linea de código siguiente:
-      using static Diego.Basics;
+      using static DiegoLib.Basics;
 
 3) Listo! Disfruta de las funciones. Ejemplo:
       int x = getInt();

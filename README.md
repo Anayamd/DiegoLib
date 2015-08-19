@@ -29,7 +29,7 @@ Libre uso educacional
 * see [INSTRUCTIONS](https://github.com/Anayamd/DiegoLib/blob/master/INSTRUCTIONS.md) file
 
 ## Funciones
-Incluye 7 funciones:
+Incluye 8 funciones:
 - getInt()
 - getByte()
 - getDecimal()
@@ -37,6 +37,7 @@ Incluye 7 funciones:
 - getFloat()
 - getLong()
 - getShort()
+- printd()
 
 ## Contacto
 #### Developer
