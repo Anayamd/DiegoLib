@@ -170,6 +170,26 @@ namespace DiegoLib
 			}
 		}
 		
+		//------------------------------------------------------//
+		public static string getString( string text = "default" )
+		{
+			try
+			{
+				if (text == "default") {		
+					System.Console.Write("Ingresa un texto: ");
+				}
+				else {
+					System.Console.Write(text);
+				}
+				string x = System.Console.ReadLine();
+				return x;
+			}
+			catch
+			{
+				return getString(text);
+			}
+		}
+		
 	}	// Final de Basics
 	
 }

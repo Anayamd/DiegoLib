@@ -7,6 +7,10 @@ class main
 
 	public static void Main()
 	{
+		Console.WriteLine("\n========================= Recetario =========================\n");
+		
+		string [] finRecopilarInfo = { "exit", "quit", "bye", "listo", "ya", "nos vemos", "chao" };
+		
 		// Current path 
 		string appPath = Directory.GetCurrentDirectory(); 		
 		
@@ -16,12 +20,12 @@ class main
 		{
 			do
 			{
-				Console.Write("Ingresa el ingrediente {0}: ", i+1);
+				Console.Write("Ingresa el ingrediente {0}:  ", i+1);
 				listaIngredientes[i] = Console.ReadLine();
 				listaIngredientes[i] = listaIngredientes[i].ToLower();
 			}
 			while (listaIngredientes[i] == "");
-			if (listaIngredientes[i] == "exit" || listaIngredientes[i] == "quit" || listaIngredientes[i] == "bye")
+			if (finRecopilarInfo.Contains(listaIngredientes[i]))
 			{
 				break;
 			}
@@ -56,6 +60,10 @@ class main
 			// Buscamos si algún ingrediente dado esta en el archivo actual
 			foreach (string ingrediente in listaIngredientes)
 			{
+				if (ingrediente == null || finRecopilarInfo.Contains(ingrediente))
+				{
+					break;
+				}
 				coincidencias[j] += findInFile(ingrediente, contents);		
 			}
 			
@@ -63,12 +71,22 @@ class main
 			j++;
 		}
 		
-		Console.WriteLine("\n============================================");
+		Console.WriteLine("\n********* Recomendación ******************************************");
 		
-		// Imprimimos el nombre de la receta y su número de coincidencias
-		for (int i = 0; i < numRecetas; i++)
+		// Sorteamos las recetas
+		Array.Sort( coincidencias, listaRecetas );
+		
+		// Imprimimos 5 recetas orden descendiente
+		for (int i = 5; i >= 0; i--)
 		{
-			Console.WriteLine("Receta: {0,8}\tCoincidencias: {1,-3:#0}", listaRecetas[i].Remove(listaRecetas[i].Length - 4), coincidencias[i]);
+			if (coincidencias[i] > 0)
+			{
+				Console.WriteLine("Receta: {0,-20}Coincidencias: {1,-3:#0}", listaRecetas[i].Remove(listaRecetas[i].Length - 4), coincidencias[i]);
+			}
+			else
+			{
+				break;
+			}
 		}
 		
 		// FIN
