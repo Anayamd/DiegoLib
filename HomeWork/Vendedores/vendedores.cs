@@ -11,10 +11,17 @@ class vendedores
 {
 	public static void Main()
 	{
-		string [] vendedores = new string [5];
-		double [,] montoComision = new double[2,5];
+		Console.Clear();
+		int x;
+		do
+		{
+			x = getInt("Ingresa el número de vendedores: ");
+		} while (x<1);
+		printd("\n");
+		string [] vendedores = new string [x];
+		double [,] montoComision = new double[2,x];
 		
-		for (int i = 0; i < 5; i++)
+		for (int i = 0; i < x; i++)
 		{
 			vendedores[i] = getString("Ingresa el vendedor " + (i+1) + ": ");
 			montoComision[0,i] = getDouble("Monto del vendedor " + vendedores[i] + ": ");
@@ -23,9 +30,10 @@ class vendedores
 		
 		Console.WriteLine();
 		printd("#", 70);
+		printd("\n");
 		Console.WriteLine();
 		
-		for (int i = 0; i < 5; i++)
+		for (int i = 0; i < x; i++)
 		{
 			if (montoComision[0,i] < 500){
 				montoComision[1,i] = .005;
@@ -44,7 +52,7 @@ class vendedores
 			}
 			Console.WriteLine( "Monto de {0,-7}: {1,-5}\tComisión: {2,3:0.00}\tGanancia: {3,7:0.00}", vendedores[i], montoComision[0,i], montoComision[1,i], montoComision[0,i] * montoComision[1,i]);
 		}
-		
+		printd("\n");
 		printd("#", 70);
 		
 		Console.Read();
