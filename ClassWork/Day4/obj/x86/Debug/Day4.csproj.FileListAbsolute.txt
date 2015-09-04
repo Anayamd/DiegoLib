@@ -1,0 +1,6 @@
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Day4\bin\Debug\Day4.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Day4\bin\Debug\Day4.pdb
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Day4\obj\x86\Debug\Day4.csprojResolveAssemblyReference.cache
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Day4\obj\x86\Debug\Day4.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Day4\obj\x86\Debug\Day4.pdb
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Day4\bin\Debug\DiegoLib.dll
