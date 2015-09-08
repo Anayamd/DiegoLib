@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{DCED0962-F548-4490-9098-8C876D5F5AFA}</ProjectGuid>
+    <ProjectGuid>{6B61CB47-6E08-412A-A16D-792DF4466D46}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Day4</RootNamespace>
-    <AssemblyName>Day4</AssemblyName>
+    <RootNamespace>Day5</RootNamespace>
+    <AssemblyName>Day5</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <StartupObject>EjercicioPDF_1</StartupObject>
+    <StartupObject>Vector</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,12 +38,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="EjercicioPDF_1.cs" />
-    <Compile Include="EjercicioPDF_2.cs" />
-    <Compile Include="EjercicioPDF_3.cs" />
-    <Compile Include="EjercicioPDF_4.cs" />
-    <Compile Include="EjercicioPDF_5.cs" />
-    <Compile Include="EjercicioPDF_6.cs" />
+    <Compile Include="pascalTriangle.cs" />
+    <Compile Include="vsCano.cs" />
+    <Compile Include="vsCanoTabla.cs" />
+    <Compile Include="vsCanoVector.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

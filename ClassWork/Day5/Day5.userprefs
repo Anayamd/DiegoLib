@@ -1,0 +1,26 @@
+﻿<Properties StartupItem="Day5.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="vsCanoVector.cs">
+    <Files>
+      <File FileName="pascalTriangle.cs" Line="51" Column="3" />
+      <File FileName="vsCano.cs" Line="23" Column="1" />
+      <File FileName="vsCanoTabla.cs" Line="13" Column="1" />
+      <File FileName="vsCanoVector.cs" Line="4" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day5" expanded="True">
+            <Node name="Day5" expanded="True">
+              <Node name="vsCanoVector.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
