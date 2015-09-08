@@ -1,0 +1,6 @@
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\RepasoExamen\bin\Debug\RepasoExamen.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\RepasoExamen\bin\Debug\RepasoExamen.pdb
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\RepasoExamen\bin\Debug\DiegoLib.dll
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\RepasoExamen\obj\x86\Debug\RepasoExamen.csprojResolveAssemblyReference.cache
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\RepasoExamen\obj\x86\Debug\RepasoExamen.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\RepasoExamen\obj\x86\Debug\RepasoExamen.pdb

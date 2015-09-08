@@ -1,0 +1,27 @@
+﻿<Properties StartupItem="RepasoExamen.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bisiesto.cs">
+    <Files>
+      <File FileName="Program.cs" Line="16" Column="35" />
+      <File FileName="PromImpares.cs" Line="30" Column="36" />
+      <File FileName="PromNegativos.cs" Line="4" Column="1" />
+      <File FileName="EsPrimo.cs" Line="11" Column="16" />
+      <File FileName="Bisiesto.cs" Line="10" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RepasoExamen" expanded="True">
+            <Node name="RepasoExamen" expanded="True">
+              <Node name="Bisiesto.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
