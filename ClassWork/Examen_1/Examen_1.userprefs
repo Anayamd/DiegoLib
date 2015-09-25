@@ -1,0 +1,28 @@
+﻿<Properties StartupItem="Examen_1.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio6.cs">
+    <Files>
+      <File FileName="Ejercicio1.cs" Line="35" Column="27" />
+      <File FileName="Ejercicio2.cs" Line="12" Column="1" />
+      <File FileName="Ejercicio3.cs" Line="32" Column="24" />
+      <File FileName="Ejercicio4.cs" Line="8" Column="3" />
+      <File FileName="Ejercicio5.cs" Line="2" Column="1" />
+      <File FileName="Ejercicio6.cs" Line="18" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Examen_1" expanded="True">
+            <Node name="Examen_1" expanded="True">
+              <Node name="Ejercicio6.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
