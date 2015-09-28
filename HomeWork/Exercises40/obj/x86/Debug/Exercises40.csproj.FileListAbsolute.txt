@@ -1,0 +1,6 @@
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\Exercises40\obj\x86\Debug\Exercises40.csprojResolveAssemblyReference.cache
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\Exercises40\bin\Debug\Exercises40.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\Exercises40\bin\Debug\Exercises40.pdb
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\Exercises40\obj\x86\Debug\Exercises40.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\Exercises40\obj\x86\Debug\Exercises40.pdb
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\HomeWork\Exercises40\bin\Debug\DiegoLib.dll

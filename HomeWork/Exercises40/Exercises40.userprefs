@@ -1,1 +1,25 @@
-﻿<Properties StartupItem="Exercises40.csproj" />
+﻿<Properties StartupItem="Exercises40.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio33.cs">
+    <Files>
+      <File FileName="Ejercicio19.cs" Line="19" Column="3" />
+      <File FileName="Ejercicio31.cs" Line="19" Column="1" />
+      <File FileName="Ejercicio33.cs" Line="41" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Exercises40" expanded="True">
+            <Node name="Exercises40" expanded="True">
+              <Node name="Ejercicio33.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
