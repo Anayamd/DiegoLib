@@ -1,10 +1,9 @@
-﻿<Properties StartupItem="Exercises40.csproj">
+﻿<Properties StartupItem="Practica5.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ejercicio26.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tarea4.cs">
     <Files>
-      <File FileName="Ejercicio19.cs" Line="1" Column="1" />
-      <File FileName="Ejercicio31.cs" Line="5" Column="10" />
-      <File FileName="Ejercicio26.cs" Line="28" Column="41" />
+      <File FileName="Poema.cs" Line="17" Column="30" />
+      <File FileName="tarea4.cs" Line="24" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

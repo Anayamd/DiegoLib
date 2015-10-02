@@ -19,7 +19,11 @@ class Ejercicio26
 			pos++;
 		}
 
-		Console.WriteLine ("El número de fibonacci posición #300");
+		foreach (var i in fibNums) {
+			Console.Write ("{0} ", i);
+		}
+
+		Console.WriteLine ("\n\nEl número de fibonacci posición #300");
 		Console.WriteLine ("\nSi la secuencia empieza 0, 1, 1, 2, ...\n{0}", fibNums[fibNums.Length - 2].ToString ("N0"));
 		Console.WriteLine ("\nSi la secuencia empieza 1, 1, 2, 3, ...\n{0}", fibNums[fibNums.Length - 1].ToString ("N0"));
 

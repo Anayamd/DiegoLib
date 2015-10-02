@@ -1,0 +1,6 @@
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Practica5\obj\x86\Debug\Practica5.csprojResolveAssemblyReference.cache
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Practica5\bin\Debug\Practica5.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Practica5\bin\Debug\Practica5.pdb
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Practica5\bin\Debug\DiegoLib.dll
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Practica5\obj\x86\Debug\Practica5.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\ClassWork\Practica5\obj\x86\Debug\Practica5.pdb
