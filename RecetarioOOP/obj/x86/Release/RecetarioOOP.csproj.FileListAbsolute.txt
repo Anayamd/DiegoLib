@@ -1,0 +1,6 @@
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\RecetarioOOP\obj\x86\Release\RecetarioOOP.csprojResolveAssemblyReference.cache
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\RecetarioOOP\bin\Release\RecetarioOOP.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\RecetarioOOP\bin\Release\RecetarioOOP.pdb
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\RecetarioOOP\obj\x86\Release\RecetarioOOP.exe
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\RecetarioOOP\obj\x86\Release\RecetarioOOP.pdb
+C:\Users\DiegoSaid\OneDrive\Universidad\Primer Semestre\Programacion\C#\RecetarioOOP\bin\Release\DiegoLib.dll
